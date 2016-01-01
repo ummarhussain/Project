@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:weightSum="100"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp">
+    <TextView
+        android:id="@+id/name1"
+        android:text="name"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="25px"
+        android:layout_weight="14.2"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/user"
+        android:text="username"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="25px"
+        android:layout_weight="14.2"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/pas"
+        android:text="password"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="25px"
+        android:layout_weight="14.2"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/phone1"
+        android:text="phone"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="25px"
+        android:layout_weight="14.2"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/cnic1"
+        android:text="cnic"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="25px"
+        android:layout_weight="14.2"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/package1"
+        android:text="package"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="25px"
+        android:layout_weight="14.2"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/reg"
+        android:text="reg_d"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="23px"
+        android:layout_weight="14.2"
+        android:gravity="center"
+        android:textColor="#333333" />
+</LinearLayout>

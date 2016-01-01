@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llContainer1">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#E2E2E2"
+            android:weightSum="100">
+            <TextView
+                android:id="@+id/name1"
+                android:text="name"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="25px"
+                android:layout_weight="14.2"
+                android:gravity="center"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/user"
+                android:text="username"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="25px"
+                android:layout_weight="14.2"
+                android:gravity="center"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/pas"
+                android:text="password"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="25px"
+                android:layout_weight="14.2"
+                android:gravity="center"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/phone1"
+                android:text="phone"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="25px"
+                android:layout_weight="14.2"
+                android:gravity="center"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/cnic1"
+                android:text="cnic"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="25px"
+                android:layout_weight="14.2"
+                android:gravity="center"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/package1"
+                android:text="package"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="25px"
+                android:layout_weight="14.2"
+                android:gravity="center"
+                android:textColor="#333333" />
+            <TextView
+                android:id="@+id/reg"
+                android:text="reg_d"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="23px"
+                android:layout_weight="14.2"
+                android:gravity="center"
+                android:textColor="#333333" />
+        </LinearLayout>
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#000" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:background="#F2F2F2"
+            android:divider="#101010"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar33"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center"
+        android:indeterminate="true"
+        android:background="@drawable/ProgressBarStyle" />
+    <com.refractored.fab.FloatingActionButton
+        android:id="@+id/fab334"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        android:background="@drawable/divider" />
+</FrameLayout>

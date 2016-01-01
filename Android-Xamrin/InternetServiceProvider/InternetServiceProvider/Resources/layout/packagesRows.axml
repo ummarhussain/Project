@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:weightSum="100"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp">
+    <TextView
+        android:id="@+id/PName11"
+        android:text="Package name "
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="33px"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/speed111"
+        android:text="Speed"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="33px"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/price111"
+        android:text="Price"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="33px"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/validity11111"
+        android:text="validity"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="33px"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:textColor="#333333" />
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="100"
+    android:background="#DEDEDC">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Insert Values in Manager"
+        android:gravity="center"
+        android:layout_weight="20"
+        android:textColor="#000" />
+    <EditText
+        android:id="@+id/txtuser"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="Username" />
+    <EditText
+        android:id="@+id/txtpas"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_weight="8"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="Password" />
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="name" />
+    <EditText
+        android:id="@+id/txtph"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:inputType="number"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="Phone NO" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Admin"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:textColor="#000" />
+    <Spinner
+        android:id="@+id/txtadmin"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_style"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="Admin" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="City Code"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:textColor="#000" />
+    <Spinner
+        android:id="@+id/txtcitycode"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_style"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="citycode" />
+    <Button
+        android:id="@+id/btninsert"
+        android:text="Insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/buttonSignUpStyle" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources><string name="app_name">Floating Action Button</string><string name="about">About</string><string name="about_body">
+        Floating Action Button, a library port by &lt;a href="http://twitter.com/jamesmontemagno"&gt;James Montemagno&lt;/a&gt;.&lt;br/&gt;
+        &lt;a href=\'https://github.com/jamesmontemagno/FloatingActionButton-for-Xamarin.Android\'&gt;https://github.com/jamesmontemagno/FloatingActionButton-for-Xamarin.Android&lt;/a&gt;
+    </string></resources>

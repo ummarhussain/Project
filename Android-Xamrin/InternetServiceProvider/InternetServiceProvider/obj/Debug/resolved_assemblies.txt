@@ -1,0 +1,15 @@
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\InternetServiceProvider.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\Mono.Android.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\mscorlib.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\Newtonsoft.Json.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\Refractored.FloatingActionButton.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\System.Core.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\System.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\System.Xml.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\System.Xml.Linq.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\Xamarin.Android.Support.Design.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\System.Runtime.Serialization.dll
+E:\c#\InternetServiceProvider\InternetServiceProvider\obj\Debug\assemblies\System.ServiceModel.Internals.dll

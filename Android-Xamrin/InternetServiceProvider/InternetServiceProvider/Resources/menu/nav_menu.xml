@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home_1"
+        android:icon="@drawable/ic_home_1"
+        android:title="Managers" />
+    <item
+        android:id="@+id/nav_home_2"
+        android:icon="@drawable/ic_home_2"
+        android:title="Customers" />
+    <item
+        android:id="@+id/nav_home_3"
+        android:icon="@drawable/ic_home_2"
+        android:title="Area" />
+    <item
+      android:id="@+id/nav_home_4"
+      android:icon="@drawable/ic_home_2"
+      android:title="City" />
+    <item
+      android:id="@+id/nav_home_5"
+      android:icon="@drawable/ic_home_2"
+      android:title="IP Pool" />
+    <item
+     android:id="@+id/nav_home_6"
+     android:icon="@drawable/ic_home_2"
+     android:title="NAS" />
+    <item
+     android:id="@+id/nav_home_7"
+     android:icon="@drawable/ic_home_2"
+     android:title="Packages" />
+    <item
+ android:id="@+id/nav_home_8"
+ android:icon="@drawable/ic_home_2"
+ android:title="About" />
+  </group>
+
+  
+
+</menu>

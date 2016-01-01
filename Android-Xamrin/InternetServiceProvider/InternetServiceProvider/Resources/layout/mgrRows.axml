@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:weightSum="100"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp">
+    <TextView
+        android:id="@+id/user"
+        android:text="Username"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:textSize="28px"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/password"
+        android:text="password"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:textSize="28px"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/name"
+        android:text="name"
+        android:layout_height="match_parent"
+        android:textSize="28px"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/phone"
+        android:text="phone"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textSize="28px"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:textColor="#333333" />
+    <TextView
+        android:id="@+id/admin"
+        android:text="admin"
+        android:layout_height="match_parent"
+        android:textSize="28px"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:textColor="#333333" />
+</LinearLayout>
